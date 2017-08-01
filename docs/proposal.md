@@ -43,4 +43,4 @@ This project will be implemented with the following technologies:
 
 ### Bonus feature
 
-Add a more detailed step by step tutorial so the user can add their own code and it renders on the page
+Add a more detailed step by step tutorial building on the current functionality.
