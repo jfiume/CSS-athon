@@ -44,3 +44,4 @@ This project will be implemented with the following technologies:
 ### Bonus feature
 
 Add a more detailed step by step tutorial building on the current functionality.
+Add tests with automation.
