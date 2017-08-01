@@ -32,11 +32,11 @@ This project will be implemented with the following technologies:
 
 ### Implementation Timeline
 
-**Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and the bare bones of all 3 scripts outlined above.
+**Day 1**: Setup all necessary Node modules, including getting webpack up and running.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and the skeleton for all 3 scripts outlined above. Start collecting the CSS code for the CSS features.
 
-**Day 2**: Collect all the CSS code for the CSS features. Build the user interface out with the CSS functions and the forms that user will type their CSS into.
+**Day 2**: Finish collecting all the CSS code for the CSS features. Build the user interface out with the CSS functions and the forms that user will type their CSS into on the frontend.
 
-**Day 3**: Build out the backside of the program. Create the tutorials so that when a user types, the backend checks to see if their code is correct.
+**Day 3**: Build out the backside of the program. Create the tutorials so that when a user types, the backend checks to see if their code is correct. Adding a hints button and a submit button.
 
 **Day 4**: Style the frontend, making it polished and professional. Make sure everything works.
 
