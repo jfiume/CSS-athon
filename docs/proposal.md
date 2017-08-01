@@ -41,7 +41,7 @@ This project will be implemented with the following technologies:
 **Day 4**: Style the frontend, making it polished and professional. Make sure everything works.
 
 
-### Bonus feature
+### Bonus features
 
-Add a more detailed step by step tutorial building on the current functionality.
-Add tests with automation.
+- Add a more detailed step by step tutorial building on the current functionality.
+- Add tests with automation.
