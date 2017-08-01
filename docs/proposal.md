@@ -9,8 +9,11 @@ CSS can be very challenging to learn and implement. However, the power of CSS to
 The CSS-athon will be able to:
 
 -  Show users the CSS feature in action when hovering over the item
--  Show/Hide the CSS code behind the CSS feature
--  At least 4 CSS effects will be highlighted with a preference towards the more advanced CSS topics such as pseudo-classes, transforms, transitions, and animations
+-  User will be able to input their own CSS code to see if it matches the correct CSS code for the function
+-  Show/Hide hints and the final, correct CSS code behind the CSS feature upon correct user code input
+-  Several CSS effects will be highlighted with a preference towards the more advanced CSS topics such as pseudo-classes, transforms, transitions, and animations
+
+### Additional Attributes
 -  A production Readme
 
 
@@ -31,13 +34,13 @@ This project will be implemented with the following technologies:
 
 **Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and the bare bones of all 3 scripts outlined above.
 
-**Day 2**: Collect all the CSS code for the CSS features.
+**Day 2**: Collect all the CSS code for the CSS features. Build the user interface out with the CSS functions and the forms that user will type their CSS into.
 
-**Day 3**: Build out the backside of the program.
+**Day 3**: Build out the backside of the program. Create the tutorials so that when a user types the backend checks to see if their code is correct.
 
 **Day 4**: Style the frontend, making it polished and professional. Make sure everything works.
 
 
 ### Bonus feature
 
-Add a step by step tutorial so the user can add their own code and it renders on the page
+Add a more detailed step by step tutorial so the user can add their own code and it renders on the page
