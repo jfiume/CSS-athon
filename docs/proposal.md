@@ -36,7 +36,7 @@ This project will be implemented with the following technologies:
 
 **Day 2**: Finish collecting all the CSS code for the CSS features. Build the user interface out with the CSS functions and the forms that user will type their CSS into on the frontend.
 
-**Day 3**: Build out the backside of the program. Create the tutorials so that when a user types, the backend checks to see if their code is correct. Adding a hints button and a submit button.
+**Day 3**: Build out the backside of the program. Create the tutorials so that when a user types, the backend checks to see if their code is correct. Adding a hints button and a submit button. When the user submits a correct answer it will do something cool and activate the CSS feature. (not sure what, still brainstorming, open to ideas.) When the user submits an incorrect answer it will also do something cool and prompt for a hint. (again, not sure what, still brainstorming, open to ideas.) 
 
 **Day 4**: Style the frontend, making it polished and professional. Make sure everything works.
 
