@@ -6,10 +6,6 @@ body {
 
 h1 {
   display: block;
-  position: absolute;
-  float: left;
-  left: 45%;
-  top: 0%;
   text-align: center;
   color:red;
   font-size: 3em;
@@ -29,19 +25,21 @@ section {
 }
 
 section div {
-  font-size: 1.5em;
+  display: none;
+  background-color: black;
+  width: 12%;
+  border-radius: 15%;
+  padding: 1%;
 }
 
 section article {
   font-size: 2em;
 }
 
-section div {
-  display: none;
-}
-
 section .prompt {
   display: block;
+  background-color: none;
+  border-radius: 0%;
 }
 
 section article {
@@ -72,7 +70,7 @@ section textarea {
   transition: transform 2s;
 }
 
-.section1 img:hover {
+.section1 .play {
   -webkit-transform:translate(100px);
   transform:translate(100px);
 }
@@ -80,6 +78,11 @@ section textarea {
 .section2 img {
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
+}
+
+.section2 .play {
+  -webkit-transform:translate(25px,-50px);
+  transform:translate(25px,-50px);
 }
 
 .section2 img:hover {
@@ -90,6 +93,11 @@ section textarea {
 .section3 img {
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
+}
+
+.section3 .play {
+  -webkit-transform:scale(1.5,1.5);
+  transform:scale(1.5,1.5);
 }
 
 .section3 img:hover {
@@ -103,6 +111,11 @@ section textarea {
   transition: transform 2s;
 }
 
+.section4 .play {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 .section4 img:hover {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -113,7 +126,40 @@ section textarea {
   transition: transform 2s;
 }
 
+.section5 .play {
+  -webkit-transition:skew(10deg,10deg);
+  transform:skew(10deg,10deg);
+}
+
 .section5 img:hover {
   -webkit-transition:skew(10deg,10deg);
   transform:skew(10deg,10deg);
+}
+
+.hint1 {
+  display: block;
+  background-color: black;
+  width: 12%;
+  border-radius: 15%;
+  padding: 1%;
+}
+
+.hint2 {
+  display: block;
+}
+
+.hint3 {
+  display: block;
+}
+
+.hint4 {
+  display: block;
+}
+
+.hint5 {
+  display: block;
+}
+
+.correct {
+  background-color: #ADF7B6;
 }
