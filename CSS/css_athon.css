@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   color:red;
   font-size: 3em;
-
+  margin-bottom: 3%;
 }
 
 .main {
@@ -20,15 +20,27 @@ h1 {
   margin-top: -5%;
 }
 
+.heading2 {
+  margin-left: 5%;
+}
+
+.blurb {
+  margin-left: 5%;
+  font-size: 1.3em;
+}
+
 section {
   margin: 5%;
 }
 
-section div {
+.hint-res {
   display: none;
-  background-color: black;
-  width: 12%;
-  border-radius: 15%;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #db155b;
+  color: #1815db;
+  font-weight: bold;
+  width: 400px;
   padding: 1%;
 }
 
@@ -36,10 +48,16 @@ section article {
   font-size: 2em;
 }
 
-section .prompt {
+.prompt {
   display: block;
-  background-color: none;
+  background-color: #FFC09F;
   border-radius: 0%;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.parent .prompt {
+  width: 50%;
 }
 
 section article {
@@ -71,6 +89,11 @@ section textarea {
 }
 
 .section1 .play {
+  -webkit-transform:translate(100px);
+  transform:translate(100px);
+}
+
+.section1 img:hover {
   -webkit-transform:translate(100px);
   transform:translate(100px);
 }
@@ -134,30 +157,6 @@ section textarea {
 .section5 img:hover {
   -webkit-transition:skew(10deg,10deg);
   transform:skew(10deg,10deg);
-}
-
-.hint1 {
-  display: block;
-  background-color: black;
-  width: 12%;
-  border-radius: 15%;
-  padding: 1%;
-}
-
-.hint2 {
-  display: block;
-}
-
-.hint3 {
-  display: block;
-}
-
-.hint4 {
-  display: block;
-}
-
-.hint5 {
-  display: block;
 }
 
 .correct {
