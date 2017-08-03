@@ -24,24 +24,11 @@ header {
   margin-bottom: 1%;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 34%;
-  margin-top: -5%;
-}
-
-.heading2 {
-  margin-left: 5%;
-}
-
 .heading1 {
   font-size: 2em;
 }
 
 .blurb {
-  margin-left: 5%;
   font-size: 1.3em;
 }
 
@@ -51,13 +38,14 @@ section {
 
 .hint-res {
   display: none;
-  text-align: center;
   font-size: 1.3em;
   background-color: #040F16;
   color: #B80C09;
   font-weight: bold;
   width: 400px;
   padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section article {
@@ -71,7 +59,10 @@ section article {
   font-size: 1.3em;
 }
 
-.parent .prompt {
+#parent .prompt {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 50%;
 }
 
@@ -99,78 +90,78 @@ section textarea {
 }
 
 
-.section1 img {
+.img-1 {
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
 }
 
-.section1 .play {
+.play-1 {
   -webkit-transform:translate(100px);
   transform:translate(100px);
 }
 
-.section1 img:hover {
+.img-1:hover {
   -webkit-transform:translate(100px);
   transform:translate(100px);
 }
 
-.section2 img {
+.img-2 {
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
 }
 
-.section2 .play {
+.play-2 {
   -webkit-transform:translate(25px,-50px);
   transform:translate(25px,-50px);
 }
 
-.section2 img:hover {
+.img-2:hover {
   -webkit-transform:translate(25px,-50px);
   transform:translate(25px,-50px);
 }
 
-.section3 img {
+.img-3 {
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
 }
 
-.section3 .play {
+.play-3 {
   -webkit-transform:scale(1.5,1.5);
   transform:scale(1.5,1.5);
 }
 
-.section3 img:hover {
+.img-3:hover {
   -webkit-transform:scale(1.5,1.5);
   transform:scale(1.5,1.5);
 }
 
 
-.section4 img {
+.img-4 {
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
 }
 
-.section4 .play {
+.play-4 {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.section4 img:hover {
+.img-4:hover {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.section5 img {
+.img-5 {
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
 }
 
-.section5 .play {
+.play-5 {
   -webkit-transition:skew(10deg,10deg);
   transform:skew(10deg,10deg);
 }
 
-.section5 img:hover {
+.img-5:hover {
   -webkit-transition:skew(10deg,10deg);
   transform:skew(10deg,10deg);
 }
@@ -178,4 +169,53 @@ section textarea {
 .correct {
   background-color: #ADFF2F;
   color: #040F16;
+}
+
+.slide-holder {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main {
+  clear: both;
+  position: relative;
+  overflow: inherit;
+
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+
+.slide {
+  margin: 2%;
+  padding: 1%;
+  position: relative;
+}
+
+#slide-image-1:target ~ .main {
+  left: 0px;
+}
+
+#slide-image-2:target ~ .main {
+    left: -800px;
+}
+
+#slide-image-3:target ~ .main {
+    left: -1600px;
+}
+
+.button-holder {
+    position: relative;
+    top: -20px;
+}
+
+.slide-change {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
 }
