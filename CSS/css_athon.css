@@ -1,12 +1,12 @@
 html {
-  background-color: #91C420;
+  background-color: #0F853A;
 }
 
 body {
-  background-color: #1553CA;
+  background-color: rgb(0,114,191);
   font-size: 14px;
-  color: #7A1908;
-  font-family: 'Libre Franklin', sans-serif;
+  color: #460CA8;
+  font-family: 'Dosis', sans-serif;
   font-weight: bold;
 }
 
@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   color: #FBFBFF;
   font-size: 4em;
-  background-color: #91C420;
+  background-color: #0F853A;
   padding-bottom: 4%;
   padding-top: 1%;
   font-weight: bold;
@@ -41,7 +41,7 @@ section {
 .hint-res {
   display: none;
   font-size: 1.3em;
-  background-color: #BFA61F;
+  background-color: rgb(231,162,41);
   color: inherit;
   font-weight: bold;
   width: 400px;
@@ -76,7 +76,8 @@ section button {
   display: inline-block;
   font-size: 1.3em;
   border-radius: 10%;
-  background-color: #BFA61F;
+  background-color: rgb(229,77,38);
+  padding: 1%;
   color: #FBFBFF;
 }
 
@@ -86,6 +87,7 @@ section textarea {
   width: 400px;
   height: 100px;
   font-family: 'Lato', sans-serif;
+  background-color: #FBFBFF;
 }
 
 .parent div {
@@ -173,7 +175,7 @@ img {
 }
 
 .correct {
-  background-color: #517307;
+  background-color: #0DA827;
   color: #040F16;
 }
 
@@ -191,7 +193,7 @@ img {
 .box {
   width: 300px;
   height: 300px;
-  background-color: #DBBF23;
+  background-color: rgb(231,162,41);
   font-size: 2em;
   position: relative;
   top: 0px;
@@ -247,6 +249,7 @@ img {
   position: absolute;
   top: 2%;
   right: 2%;
+  margin: 5px;
 }
 
 /*.slide-holder {
