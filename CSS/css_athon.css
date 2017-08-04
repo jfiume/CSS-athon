@@ -91,6 +91,9 @@ section textarea {
   display: block;
 }
 
+img {
+  border-radius: 2%;
+}
 
 .img-1 {
   -webkit-transition: -webkit-transform 2s;
