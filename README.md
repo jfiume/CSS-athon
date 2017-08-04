@@ -32,5 +32,6 @@ CSS-athon could be improved with the addition of a few future implementations:
 
 - Add a more detailed step by step tutorial building on the current functionality.
 - Add tests with automation.
+- Make each tutorial a CSS slide show.
 
 <img src="http://res.cloudinary.com/pancake/image/upload/v1501807845/Screen_Shot_2017-08-03_at_5.48.45_PM_p4a7xg.png">

@@ -59,6 +59,7 @@ section article {
   border-radius: 0%;
   width: 100%;
   font-size: 1.3em;
+  margin: 1%;
 }
 
 #parent .prompt {
@@ -240,6 +241,12 @@ img {
   transition-property: width height background-color font-size left top transform -webkit-transformv color;
   transition-duration: 2s;
   transition-timing-function: ease-in-out;
+}
+
+#github {
+  position: absolute;
+  top: 2%;
+  right: 2%;
 }
 
 /*.slide-holder {
