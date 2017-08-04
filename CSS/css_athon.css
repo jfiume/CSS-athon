@@ -41,8 +41,8 @@ section {
 .hint-res {
   display: none;
   font-size: 1.3em;
-  background-color: #040F16;
-  color: #B80C09;
+  background-color: #BFA61F;
+  color: inherit;
   font-weight: bold;
   width: 400px;
   padding: 1%;

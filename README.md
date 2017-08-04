@@ -4,7 +4,8 @@ CSS-athon is a fun front end web application that teaches users to learn advance
 
 CSS-athon is a personal project by Joseph Fiume
 
-<img src="http://res.cloudinary.com/pancake/image/upload/v1501807712/Screen_Shot_2017-08-03_at_5.46.39_PM_astnlf.png">
+<img src="https://res.cloudinary.com/pancake/image/upload/v1501865102/Screen_Shot_2017-08-04_at_9.42.14_AM_usu9cw.png">
+
 ## Features
 
 -  Users see the CSS feature in action when hovering over the item
@@ -12,7 +13,7 @@ CSS-athon is a personal project by Joseph Fiume
 -  Hint button shows/hides hints for the code
 -  Several CSS effects are highlighted such as pseudo-classes, transforms, transitions, and animations
 
-<img src="http://res.cloudinary.com/pancake/image/upload/v1501807714/Screen_Shot_2017-08-03_at_5.47.32_PM_pbbyoy.png">
+<img src="https://res.cloudinary.com/pancake/image/upload/v1501865125/Screen_Shot_2017-08-04_at_9.41.52_AM_xrezq0.png">
 
 ## Project Design
 
@@ -34,4 +35,4 @@ CSS-athon could be improved with the addition of a few future implementations:
 - Add tests with automation.
 - Make each tutorial a CSS slide show.
 
-<img src="http://res.cloudinary.com/pancake/image/upload/v1501807845/Screen_Shot_2017-08-03_at_5.48.45_PM_p4a7xg.png">
+<img src="https://res.cloudinary.com/pancake/image/upload/v1501865144/Screen_Shot_2017-08-04_at_9.44.16_AM_lbqtwh.png">
