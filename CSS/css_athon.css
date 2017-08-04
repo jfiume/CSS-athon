@@ -1,11 +1,11 @@
 html {
-  background-color: #083F56;
+  background-color: #91C420;
 }
 
 body {
-  background-color: #1d7590;
+  background-color: #1553CA;
   font-size: 14px;
-  color: #923a01;
+  color: #7A1908;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
 }
@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   color: #FBFBFF;
   font-size: 4em;
-  background-color: #083F56;
+  background-color: #91C420;
   padding-bottom: 4%;
   padding-top: 1%;
   font-weight: bold;
@@ -173,7 +173,7 @@ img {
 }
 
 .correct {
-  background-color: #ADFF2F;
+  background-color: #517307;
   color: #040F16;
 }
 
@@ -210,7 +210,7 @@ img {
   -webkit-transform: rotate(270deg);
   width: 50px;
   height: 50px;
-  background-color: #083F56;
+  background-color: #557807;
   color: yellow;
   font-size: 18px;
   left: 150px;
@@ -229,7 +229,7 @@ img {
   -webkit-transform: rotate(270deg);
   width: 50px;
   height: 50px;
-  background-color: #083F56;
+  background-color: #557807;
   color: yellow;
   font-size: 18px;
   left: 150px;
