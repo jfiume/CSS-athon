@@ -26,7 +26,23 @@ A proposal was drafted to help provide an implementation timeline for the develo
 - Vanilla JavaScript and `jquery` for overall structure and logic,
 - `HTML5` and `CSS3` for all for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
+## Code Snippets
+``` CSS3
+.img-4 {
+  -webkit-transition: -webkit-transform 2s;
+  transition: transform 2s;
+}
 
+.play-4 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.img-4:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+```
 ## Future Implementations
 
 CSS-athon could be improved with the addition of a few future implementations:
