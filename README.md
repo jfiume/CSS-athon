@@ -22,7 +22,7 @@ A proposal was drafted to help provide an implementation timeline for the develo
 ## Technology
 
 - `HTML5` and `CSS3` for overall structure and styling,
-- Vanilla JavaScript and `jquery` for all for DOM manipulation and rendering,
+- Vanilla `JavaScript` and `jquery` for all for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 
 ## Code Snippets
