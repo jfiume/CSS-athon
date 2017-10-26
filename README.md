@@ -2,6 +2,8 @@
 
 CSS-athon is a fun front end web application that teaches users to learn advanced CSS animations through short tutorials.
 
+https://jfiume.github.io/
+
 <img src="https://res.cloudinary.com/pancake/image/upload/v1501867933/Screen_Shot_2017-08-04_at_10.31.32_AM_bvgm1f.png">
 
 ## Features & MVP
