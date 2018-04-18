@@ -17,18 +17,20 @@
       <h1>CSS-athon!</h1>
       <a href="https://github.com/jfiume"><img id="github" src="https://res.cloudinary.com/pancake/image/upload/c_scale,w_60/v1501860488/GitHub-Mark_nauqk9.png"></a>
     </header>
-    <div class="main"></div>
+    <div class="main-container">
+      <div class="main"></div>
+    </div>
     <script>
-      $(".main > section:gt(0)").hide();
+      // $(".main > section").hide();
 
-      setInterval(function() {
-      $('.main > section:first')
-        .fadeOut(1000)
-        .next()
-        .fadeIn(1000)
-        .end()
-        .appendTo('.main');
-      }, 3000);
+      // setInterval(function() {
+      // $('.main > section:first')
+      //   .fadeOut(1000)
+      //   .next()
+      //   .fadeIn(1000)
+      //   .end()
+      //   .appendTo('.main');
+      // }, 3000);
     </script>
     </div>
   </body>
