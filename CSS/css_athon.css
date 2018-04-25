@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(0,114,191);
+  /* background-color: rgb(0,114,191); */
   font-size: 14px;
   color: #FBFBFF;
   font-family: 'Dosis', sans-serif;
@@ -184,10 +184,31 @@ img {
   height: 100%;
   margin: auto;
   text-align: center;
+
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  visibility: hidden;
+}
+
+.main > section:first-child {
+  visibility: visible;
+}
+
+.main > section {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
 }
 
 .main h2 {
   font-size: 2em;
+}
+
+.main-container {
+  height: 700px;
+  background-color: rgb(0,114,191);
 }
 
 /*
