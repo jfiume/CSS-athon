@@ -278,3 +278,11 @@ Using CSS transitions from the Mozilla Foundation Web docs
   right: 1%;
   margin: 5px;
 }
+
+p {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+}
